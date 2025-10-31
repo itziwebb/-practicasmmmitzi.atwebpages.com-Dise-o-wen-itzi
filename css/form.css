@@ -1,0 +1,45 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0px;
+padding: 0px;}
+
+h2 { font-family: sans-serif, serif;
+font-size: 32px; margin-bottom: 16px; line-height: 140%;}
+
+.cabecera {width: 80%;
+min-height: 10px;
+padding: 16px 0px;
+margin: 16px auto;
+text-align: center; 
+font-size: 3em;
+color: #167b59;
+border: 1px solid rgba(0, 0, 0, 0.039);
+border-radius: 16px;
+background: #833AB4;
+background: linear-gradient(180deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 95%, rgba(252, 176, 69, 1) 100%);}
+
+.principal p{font-family: Mulish,sans-serif, serif; font-size: 
+    16px; line-height: 150%; padding-bottom: 16px;
+}
+
+.principal a {width: 250px; padding: 8px 0px;
+text-align: center; background-color: #167b59;
+font-size: 16px;text-decoration: none;
+border-radius: 16px;}
+
+
+.contenido {
+    width: 250%;
+    display: block;
+    margin: auto;
+}
+
+.items {width: 50%;}
+
+.items input {width: 100%;
+padding: 8px 0px;
+margin-bottom: 8px; }
+
+textarea {max-width: 100%;width: 100%; padding: 8px 0px; margin-bottom: 8px; min-height: 120px;min-width: 120px; }
+
+.pie {}

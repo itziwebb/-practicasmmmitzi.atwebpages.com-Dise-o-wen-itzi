@@ -1,0 +1,71 @@
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Diario del Ratón - Magia en Anaheim<</title>
+    <>
+        
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header-principal {
+            background-color: #b43626; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #157840 };
+        }
+        .header-principal h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        .header-principal p {
+            margin: 5px 0 0;
+            font-style: italic;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px #ba340f;;
+        }
+        article {
+            border-bottom: 2px solid #0d5974;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        article h2 {
+            font-size: 1.8em;
+            color: #207c1a; /* Azul oscuro para titulares */
+        }
+        .noticia-meta {
+            font-size: 0.9em;
+            color: #100e0e;
+            margin-bottom: 15px;
+            border-left: 3px solid #cf320a;
+            padding-left: 10px;
+        }
+       
+      
+        .footer-diario {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #b23613;
+            color: white;
+            font-size: 0.8em;
+            margin-top: 20px;
+        }
+        .footer-diario a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
