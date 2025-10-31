@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Un fondo muy claro */
+}
+
+.content-wrapper {
+    max-width: 900px; /* Ancho máximo similar al de la imagen */
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del encabezado/hero */
+.hero {
+    background: linear-gradient(to bottom, #c119c1, #e0eaff); /* Gradiente azul suave */
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px 5px 0 0; /* Bordes redondeados sutiles */
+    border: 1px solid #c0d8ff;
+}
+
+.hero h1 {
+    font-size: 60px; /* Tamaño del emoji de la cara */
+    margin: 0;
+}
+
+/* Estilo de la sección de contacto */
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc; /* Línea separadora sutil */
+    padding-bottom: 10px;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 40px; /* Espacio entre el texto y el formulario */
+}
+
+/* Estilo del texto informativo */
+.info-text {
+    flex: 1;
+}
+
+.info-text p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.send-message-link {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* Estilo del formulario */
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre los campos del formulario */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid #999; /* Borde más oscuro como en la imagen */
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 80px; /* Altura mínima para el área de texto */
+}
+
+.contact-form button {
+    background-color: #f0f0f0; /* Color gris claro similar al botón de la imagen */
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: flex-end; /* Alinea el botón a la derecha */
+    width: auto; /* Ajusta el ancho al contenido */
+}
+
+/* Ajustes para simular la apariencia del formulario de la imagen */
+/* La imagen muestra el formulario a la derecha con campos más cortos */
+@media (min-width: 600px) {
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* El texto ocupa más espacio que el formulario */
+        align-items: start;
+    }
+    
+    .contact-form {
+        gap: 5px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 5px; /* Campos un poco más pequeños */
+    }
+
+    .contact-form button {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+}
